@@ -18,5 +18,5 @@ the sexth section -- 50% of the section image and 50% text area hearder three p 
 10th section -- two images between the image header "join our newsletter" an dp tag "sign up for deals, new products and promotions
 and input tag envelop image
 footer section
-similar to nav bar the logo beside it p tag headphone store nav bar home, shop, product, contact us
+similar to nav bar the logo beside it p tag product store nav bar home, shop, product, contact us
 under with another div but similar section copy right privacy policy terms of use on the corner of the right side socila media icons
