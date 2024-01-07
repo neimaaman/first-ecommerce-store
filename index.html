@@ -19,7 +19,7 @@
                 
                     <div class="w-1/2 mx-auto p-1 flex">
                         <p class="">30% of store wide - limitd time!</p>
-                        <a href="#" class="text-orange-400">Shop Now <img src="images/arrow-right.svg" alt=""></a>
+                        <a href="#" class="text-orange-400 underline">Shop Now <img src="images/arrow-right.svg" alt=""></a>
                     </div>
             </div>
         </div><br>
@@ -32,10 +32,10 @@
 
             <div class="">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li class="inline"><a href="">Home</a></li>
+                    <li class="inline"><a href="">Shop</a></li>
+                    <li class="inline"><a href="">Product</a></li>
+                    <li class="inline"><a href="">Contact us</a></li>
                 </ul>
             </div>
            
@@ -104,7 +104,7 @@
             <!-- start firt carousel card -->
             
             <div id="first-carousel-item">
-                <div id="carousel-top-1">
+                <div id="carousel-top-1" class="bg-black">
                     <span>New</span>
                     <div id="fav">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
@@ -120,7 +120,7 @@
                 
                 <div id="carousel-bottom">
                 
-                    <div id="rating-container-1">
+                    <div id="rating-container-1" class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
                         </svg>
@@ -147,7 +147,7 @@
                 <!-- end first carousel card -->
             </div>    
             
-            <div id="second-carousel-item">
+            <div id="second-carousel-item" class="bg-red-500">
                 <div id="carousel-top-2">
                     <span>New</span>
                     <img src="images/product-2.png" alt="headphone">
@@ -181,7 +181,7 @@
                 
             </div>
             
-            <div  id="third-carousel-item" class="bg-red-500">
+            <div  id="third-carousel-item" class="bg-black">
 
                     <div id="carousel-top-3">
                         <span>New</span>
@@ -651,7 +651,7 @@
                 <h3>Instagram</h3>
                 <p>@Ne3ma_official</p>
             </div>
-            <div>
+            <div class="flex">
                 <img src="images/img-2.png" alt="">
                 <img src="images/img-3.png" alt="">
                 <img src="images/img-4.png" alt="">
@@ -665,9 +665,15 @@
             </div>
             <h3>Join Our Newsletter</h3>
             <p>Sign up for deals, new products promotions</p>
-            <form>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+              
+            <form class="border-solid ">
                 <input type="text" id="email"    placeholder="Email address">
-                <button type="button">Signup</button>
+                <!-- is this placeholder or label email -->
+                <button>Signup</button>
             </form>
             <div>
                 <img src="images/signup-img-2.png" alt="">
@@ -676,10 +682,9 @@
         
     </main>
     <footer>
-        <div>
+        <div class=" flex text-white bg-black ">
             <div>
-                <img src="Ne3ma" alt="logo">
-                 |
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40"><path fill="#F06225" d="M20 0c11.046 0 20 8.954 20 20v14a6 6 0 0 1-6 6H21v-8.774c0-2.002.122-4.076 1.172-5.78a10 10 0 0 1 6.904-4.627l.383-.062a.8.8 0 0 0 0-1.514l-.383-.062a10 10 0 0 1-8.257-8.257l-.062-.383a.8.8 0 0 0-1.514 0l-.062.383a9.999 9.999 0 0 1-4.627 6.904C12.85 18.878 10.776 19 8.774 19H.024C.547 8.419 9.29 0 20 0Z"></path><path fill="#F06225" d="M0 21h8.774c2.002 0 4.076.122 5.78 1.172a10.02 10.02 0 0 1 3.274 3.274C18.878 27.15 19 29.224 19 31.226V40H6a6 6 0 0 1-6-6V21ZM40 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"></path></svg> |
                 <p>Headphone Store</p>
             </div>
 
@@ -694,10 +699,12 @@
             </div>
         </div>
     <!-- i need an hr to separate this div -->
-        <hr>
-        <div>
+        
+        <div class="bg-black text-white text-xs">
+            <!-- some of tailwind css are not working ex.font size  -->
+            <hr>
             <div >
-                <p>Copyrght &copy; 2023 @Ne3ma. All rights reserved</p> 
+                <p>Copyright &copy; 2023  All rights reserved</p> 
                 <ul>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Terms of Use</a>  </li>
